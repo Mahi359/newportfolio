@@ -1,0 +1,166 @@
+
+
+html, body {
+  height: 100%
+  width: 100%
+}
+/* Styling*/
+.mia{color:#e00000 ;
+     background-color:#efbdd1;
+  padding: 20px;
+  border: 10px solid #aa2755;
+}
+
+body{
+  background-color: #ffffff;
+  position: center;
+ background-image: url("images/bluee.jpg");
+ background-color: #cccccc;
+background-size:5000px;
+}
+ h1,h2{
+   color:white;
+ }
+  
+.topnav {
+  overflow: hidden;
+  background-color: rgb(23, 14, 93); 
+    width:900px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: rgb(188, 41, 44);
+  color: rgb(0, 0, 0);
+}
+
+
+.me{
+  background-color:#8594c1;
+  color: #fccfcf;
+  padding: 50px
+  display:flex;
+    justify-content:center;
+  margin:10px;
+    width:500px
+}
+
+
+.music{
+background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a{
+  color:white;
+  text-decoration:none;
+  font-size:16px;
+  text-align:center;
+  
+}
+
+.music1{
+  background-color: #9e34f4;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a{
+  color:#ffffff;
+  text-decoration:none;
+  font-size:16px;
+  text-align:center;
+}
+
+.music2{
+  background-color: #f2cf50;
+  color: #2f1e1e;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+a{
+  color:white;
+  text-decoration:none;
+  font-size:16px;
+  text-align:center;
+  
+  
+}
+.button {
+  background-color: #121940; 
+  border: none;
+  color: #eadcdc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4805ff;
+  color: white;
+}
+
+.first {
+  border-style: solid;
+  border-color: #121940;
+  border-width: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+   flex-wrap: wrap;
+  }
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 10%; 
+  padding: 10px; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.main {
+  flex: 5%; 
+  padding: 10px; 
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
